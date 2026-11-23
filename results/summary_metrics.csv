@@ -1,0 +1,4 @@
+model,Overall Accuracy,Level 1 Accuracy,Level 2 Accuracy,Level 3 Accuracy,JSON Compliance %,Avg Latency (s),Errors
+deepseek-v4.1-flash,0.2667,0.2,0.3,0.3,95.0,83.668,0
+glm-5.3,0.25,0.15,0.5,0.1,95.0,66.017,0
+gemma-4-31b,0.4667,0.6,0.25,0.55,96.67,44.733,0

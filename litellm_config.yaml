@@ -1,0 +1,27 @@
+model_list:
+  - model_name: "*"
+    litellm_params:
+      model: openai/gemma-4-31b
+      api_base: https://evren-llmapi.ssyz.org.tr/v1
+      api_key: os.environ/EVREN_API_KEY
+  - model_name: "*"
+    litellm_params:
+      model: openai/qwen3.8-flash-next
+      api_base: https://evren-llmapi.ssyz.org.tr/v1
+      api_key: os.environ/EVREN_API_KEY
+  - model_name: "*"
+    litellm_params:
+      model: openai/deepseek-v4.1-flash
+      api_base: https://evren-llmapi.ssyz.org.tr/v1
+      api_key: os.environ/EVREN_API_KEY
+
+litellm_settings:
+  drop_params: true
+  use_client: false
+
+general_settings:
+  master_key: sk-local-evren-key
+
+router_settings:
+  num_retries: 5
+  retry_after: 5

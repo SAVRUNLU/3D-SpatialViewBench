@@ -1,0 +1,9 @@
+# 3D-SpatialViewBench - dataset generator
+# Standard library only: the generator uses json, random, sys, pathlib.
+# No third-party packages are required to generate dataset.json.
+#
+# Evaluation / dashboard dependencies (evaluate.py):
+openai
+pandas
+streamlit
+plotly
