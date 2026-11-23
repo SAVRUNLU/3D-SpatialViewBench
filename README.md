@@ -1,5 +1,8 @@
 # 3D-SpatialViewBench: Evaluation of Egocentric 3D Reasoning in LLMs
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Platform-blue)](https://3d-spatialviewbench-9zz43nkaiop8du9zzbjzau.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/SAVRUNLU/3D-SpatialViewBench)
+
 3D-SpatialViewBench evaluates the capacity of text-only large language models to maintain and update a mental spatial coordinate system through rotation and translation. Unlike vision-language benchmarks, this task isolates symbolic geometric reasoning by providing precise coordinates and transformations in text.
 
 ## Core Methodology

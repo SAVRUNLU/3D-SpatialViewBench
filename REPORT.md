@@ -1,5 +1,7 @@
 # 3D-SpatialViewBench: Mental Rotation and Perspective-Taking in Text-Only LLMs
 
+**Live Platform:** [streamlit.app](https://3d-spatialviewbench-9zz43nkaiop8du9zzbjzau.streamlit.app/) | **Repository:** [GitHub](https://github.com/SAVRUNLU/3D-SpatialViewBench)
+
 ## Summary
 
 This report evaluates `deepseek-v4.1-flash`, `glm-5.3`, and `gemma-4-31b` on 3D-SpatialViewBench, a 60-item benchmark measuring a model's ability to compose rotation matrices and maintain a coordinate frame using only text-based symbolic computation. The harness made 180 total calls. All 180 calls completed with zero transport errors.
